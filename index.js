@@ -33,6 +33,5 @@ Register.addEventListener("click",()=>{
 });
 
 create.addEventListener("click",()=>{
-  username = usernameRes.value;
-  console.log(username); 
+  window.location = "HomePage.html";
 });
