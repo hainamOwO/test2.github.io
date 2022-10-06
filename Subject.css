@@ -121,7 +121,7 @@ a{
 #subject-KHTN,#subject-KHXH,#subject-English{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 70px;
+  column-gap: 30px;
 }
 
 #card{
