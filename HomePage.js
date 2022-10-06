@@ -49,3 +49,7 @@ arrowRight.lineTo(50,25);
 arrowRight.moveTo(50,25);
 arrowRight.lineTo(25,50);
 arrowRight.stroke();
+
+start.addEventListener('click',()=>{
+  window.location = "Subject.html";
+});
