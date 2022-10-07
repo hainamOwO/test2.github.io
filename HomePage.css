@@ -7,45 +7,6 @@ body{
   background-color:#1d2549;
 }
 
-#myCanvas{
-  position: fixed;
-  left:20px;
-  top:20px;
-  cursor: pointer;
-}
-
-#side-bar{
-  background-color: #33417e;
-  display: grid;
-  grid-template-columns: 50vh;
-  position: fixed;
-  top:0;
-  left:0;
-  bottom:0;
-  display: none;
-  text-align: center;
-  box-shadow: 10px 5px 5px rgba(0,0,0,0.25);
-}
-
-a{
-  text-decoration: none;
-  color:white;
-  font-size: 17px;
-}
-
-#logo{
-  width: 10vh;
-  height: 10vh;
-  border-radius: 5vh;
-  object-fit: cover;
-  position: absolute;
-  right: 0;
-}
-
-#top-side-bar{
-  font-size: 30px;
-  font-weight: bold;
-}
 
 #page-center{
   width: 45em;
@@ -95,14 +56,6 @@ a{
   right: 0;
   bottom: 0;
   z-index: -2;
-}
-
-#top-bar{
-  display: flex;
-  background-color: #404a77;
-  width: 100%;
-  height: 100px;
-  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.25);
 }
 
 #start{

@@ -22,16 +22,6 @@ context.moveTo(0,45);
 context.lineTo(50,45);
 context.stroke();
 
-canvas.addEventListener("click",()=>{
-  sidebar.style.display = "grid";
-})
-
-window.addEventListener("keydown",()=>{
-  if(event.key===" "){
-    sidebar.style.display = "none";
-  }
-})
-
 arrowLeft.strokeStyle = "rgb(209, 209, 209)";
 arrowLeft.lineWidth = 5;
 arrowLeft.beginPath();

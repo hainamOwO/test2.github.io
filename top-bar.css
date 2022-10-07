@@ -1,0 +1,39 @@
+#menuicon{
+  position: relative;
+  cursor: pointer;
+  left:20px;
+}
+#navigate{
+  cursor: pointer;
+  padding:20px 20px;
+  text-decoration: none;
+  color:white;
+  font-size: 17px;
+  transition: all 0.25s;
+}
+#navigate:hover{
+  border-bottom:black solid ;
+}
+#logo{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#top-bar{
+  position: fixed;
+  left: 0;
+  top: 0;
+  align-items: center;
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: #404a77;
+  width: 100%;
+  height: 100px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.25);
+  justify-content: space-between;
+}

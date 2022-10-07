@@ -3,54 +3,13 @@
 }
 
 
-#top-bar{
-  display: flex;
-  background-color: #404a77;
-  width: 100%;
-  height: 100px;
-  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.25);
-  position: fixed;
-  top:0;
-  left: 0;
-}
-#logo{
-  width: 10vh;
-  height: 10vh;
-  border-radius: 5vh;
-  object-fit: cover;
-  position: absolute;
-  right: 0;
-}
+
 
 #myCanvas{
   position: fixed;
   left:20px;
   top:20px;
   cursor: pointer;
-}
-
-#side-bar{
-  background-color: #33417e;
-  display: grid;
-  grid-template-columns: 50vh;
-  position: fixed;
-  top:0;
-  left:0;
-  bottom:0;
-  display: none;
-  text-align: center;
-  box-shadow: 10px 5px 5px rgba(0,0,0,0.25);
-}
-
-a{
-  text-decoration: none;
-  color:white;
-  font-size: 17px;
-}
-
-#top-side-bar{
-  font-size: 30px;
-  font-weight: bold;
 }
 
 #search-container{
@@ -126,9 +85,15 @@ a{
 
 #card{
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
-  width: fit-content;
+  width: 15em;
   background-color: gainsboro;
   cursor: pointer;
+  transition: all 0.15s;
+}
+#card:hover{
+  box-shadow: 10px 10px 10px rgba(255, 0, 0, 0.25);
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 #text{
@@ -146,7 +111,7 @@ a{
 }
 
 #front-sight{
-  width: 20em;
+  width: 15em;
 }
 
 #math,#physic,#chemistry,#biology{
